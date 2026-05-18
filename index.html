@@ -121,19 +121,6 @@
     .nav-link { color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 14px; }
     .nav-link:hover { color: white; }
 
-    @media (max-width: 600px) {
-      .nav-inner {
-        height: 56px;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 3px;
-      }
-      .nav-name { font-size: 12px !important; }
-      .nav-links { gap: 14px !important; }
-      .nav-links .nav-link { font-size: 11px; }
-      .nav-links .nav-btn { font-size: 10px !important; padding: 3px 10px !important; }
-    }
 
     /* Section */
     section { padding: 80px 0; }
@@ -173,8 +160,7 @@
 
     <!-- ====== NAV ====== -->
     <nav class="fixed top-0 left-0 right-0 z-50 glass" style="padding: 0 1.5rem;">
-      <div class="nav-inner" style="max-width: 960px; margin: 0 auto; height: 56px; display: flex; align-items: center; justify-content: space-between;">
-        <span class="nav-name" style="font-family: Poppins, sans-serif; font-weight: 700; color: white; font-size: 15px; letter-spacing: 0.3px;">Thomas Stillebacher</span>
+      <div class="nav-inner" style="max-width: 960px; margin: 0 auto; height: 56px; display: flex; align-items: center; justify-content: center;">
         <div class="nav-links" style="display: flex; gap: 24px; align-items: center;">
           <a href="#ueber-mich"  class="nav-link" style="text-decoration: none;">Über mich</a>
           <a href="#kompetenzen" class="nav-link" style="text-decoration: none;">Kompetenzen</a>
